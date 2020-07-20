@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600;700&family=Playfair+Display:wght@900&display=swap');
+
+/*
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+*/
+
+@import url("css/base.css");
+@import url("css/variables.css");
+@import url("css/type.css");
+@import url("css/block.css");
+https://codio.com/hdiehl/holly-portfolio/tree/styles.css#

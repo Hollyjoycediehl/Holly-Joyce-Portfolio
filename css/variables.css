@@ -1,0 +1,27 @@
+:root{
+  --font-ibm:'IBM Plex Sans', sans-serif;
+  --font-play:'Playfair Display', serif;
+    
+ --weight-medium:500;
+ --weight-semibold:600;
+ --weight-black:700;
+    
+ --size-desk-nav:2.0rem;
+ --size-desk-h2:6.5rem;
+ --size-desk-pbig:2.5rem;
+ --size-desk-h3:5.2rem;
+ --size-desk-h4:3.0rem;
+ --size-desk-p:2.0rem;
+ --size-desk-footer:1.5rem;
+ --size-desk-workp:3.7rem;
+ --size-desk-button: 1.8rem;
+   
+ --color-yellow: #FFE600;
+ --color-coral: #F69789;
+ --color-white: #FFFFFF;
+ --color-blush: #FFD0D0;
+ --color-grey: #3F3F3F;
+ --color-lightgrey: #EFF0F0;
+ 
+ --height-extended: 3.2rem;
+}
