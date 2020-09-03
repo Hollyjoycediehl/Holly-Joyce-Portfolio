@@ -5,17 +5,28 @@
      <title>Holly Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
    <link rel="shortcut icon" type="image/x-icon" href="images/hjdesignfavicon.ico">
-        <link type="text/css" rel="stylesheet" href="/styles.css" />
+           <link rel="stylesheet" href="css/bootstrap.css"/>
+         <link rel="stylesheet" href="css/site.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>  
     <body>
          <header>
-             <nav>
-                <a href="index.html"><h1><img src="images/hollydiehl.png" class="logo"/></h1></a> 
-                 <ul>
-                   <li><a href="#about">About</a></li>
-                   <li><a href="#work">Work</a></li>
-                   <li><a href="docs/HollyJDiehlResume.pdf">Resum&eacute</a></li>
+             <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-primary">
+                 <div class="container-fluid">
+                 <a class="navbar-brand" href="index.html">
+                 <img src="images/hollydiehl.png" width="120" hieght="120" class="d-inline-block align-top">
+                 </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collaspe" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                      </button>
+                     <div class="collaspe navbar-collapse" id="navbarCollapse">
+                    <ul class="nav navbar-nav mr-auto"> 
+                   <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                   <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+                   <li class="nav-item"><a class="nav-link"href="docs/HollyJDiehlResume.pdf">Resum&eacute</a></li>
                  </ul>
+                     </div>
+                     </div>
              </nav>
       </header>
         <main>
