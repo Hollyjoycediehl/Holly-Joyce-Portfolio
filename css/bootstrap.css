@@ -11,7 +11,12 @@
   --pink: #e83e8c;
   --red: #dc3545;
   --orange: #fd7e14;
-  --yellow: #ffc107;
+  --yellow: #ffe600;
+  --coral: #F69789;
+  --white: #FFFFFF;
+ --blush: #ffd0d0;
+ --grey: #3F3F3F;
+ --lightgrey: #EFF0F0;
   --green: #28a745;
   --teal: #20c997;
   --cyan: #17a2b8;
@@ -33,6 +38,25 @@
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600;700&family=Playfair+Display:wght@900&display=swap');
+  --font-ibm:'IBM Plex Sans', sans-serif;
+  --font-play:'Playfair Display', serif;
+    
+ --weight-medium:500;
+ --weight-semibold:600;
+ --weight-black:700;
+    
+ --size-desk-nav:2.0rem;
+ --size-desk-h2:6.5rem;
+ --size-desk-pbig:2.5rem;
+ --size-desk-h3:5.2rem;
+ --size-desk-h4:3.0rem;
+ --size-desk-p:2.0rem;
+ --size-desk-footer:1.5rem;
+ --size-desk-workp:3.7rem;
+ --size-desk-button: 1.8rem;
+ 
+ --height-extended: 3.2rem;
 }
 
 *,
@@ -356,8 +380,9 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-weight: 500;
-  line-height: 1.2;
+  font-weight: 700;
+  line-height: 1.0;
+  font-family: var(--font-play);
 }
 
 h1, .h1 {
@@ -365,7 +390,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 2rem;
+  font-size: 3.6rem;
 }
 
 h3, .h3 {
@@ -6707,7 +6732,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #007bff !important;
+  background-color:#ffe600;  !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
