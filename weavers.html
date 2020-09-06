@@ -3,77 +3,112 @@
     <head>
      <meta charset="UTF-8" />
      <title>Holly Portfolio</title>
+        <link rel="shortcut icon" type="image/x-icon" href="../images/hjdesignfavicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="shortcut icon" type="image/x-icon" href="../images/hjdesignfavicon.ico"/>
-    <link type="text/css" rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+         <link rel="stylesheet" href="css/_site.scss"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <script src="js/bootstrap.js"></script>
     </head>  
-    <body class="workpage">
+    <body>
          <header>
-             <nav>
-                <a href="index.html"><h1><img src="../images/hollydiehl.png" class="logo"/></h1></a> 
-                      <ul>
-                           <li><a href="../index.html#about">About</a></li>
-                   <li><a href="../index.html#work">Work</a></li>
-                   <li><a href="docs/HollyJDiehlResume.pdf">Resume&eacute</a></li>
+             <nav class="navbar navbar-expand-sm navbar-light fixed-top bg-primary">
+                 <div class="container-fluid">
+                 <a class="navbar-brand" href="../index.html">
+                 <img src="../images/hollydiehl.png" width="120" hieght="120" class="d-inline-block align-top">
+                 </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collaspe navbar-collapse" id="collapsibleNavbar">
+                    <ul class="nav navbar-nav mr-auto"> 
+                   <li class="nav-item"><a class="nav-link" href="../#about">About</a></li>
+                   <li class="nav-item"><a class="nav-link" href="../#work">Work</a></li>
+                   <li class="nav-item"><a class="nav-link"href="../docs/HollyJDiehlResume.pdf">Resum&eacute</a></li>
                  </ul>
+                     </div>
+                     </div>
              </nav>
       </header>
-        <main>
-            <div class= "workpage__header">
-            <h2 class="workpage__h2">Weaver's Redesign</h2>
-                <div class="underline_workpages"></div>
-                 <p class="workpage_subp">Making a Website as Inviting as the Buisness</p>
-                   </div>
-              <a href="../wearabledata.html">
-            <div class="lastpage">
-                <p>BACK</p>
-            </div>
-                </a>
-            <a href="../poster.html">
-            <div class="nextpage">
-                <p>NEXT</p>
-            </div>
-                </a>
-                <div class="weavers-page">
-                     <div class="weavers-img">
-                    <img src="../images/homepageold-weavers.png"/>
-                    <img src="../images/productpageold-weavers.png"/>
-                </div>
-                    <h3><u>Craving a Little More</u></h3>
+
+           <main class="main">
+<div class="container mt-5" >
+                <div class="row">
+                    <div clas="col-6">
+            <h2 class="pt-5">Weaver's Redesign</h2>
+ <p>Making a Website as Inviting as the Buisness</p>
+                    </div>
+    </div>
+               </div>
+
+                <div class="container">
+                     <div class="row mt-4">
+                         <div class="col-7" >
+                    <img class="img-fluid" src="../images/homepageold-weavers.png"/>
+                         </div>
+                         <div class="col-5">
+                    <img  class="img-fluid" src="../images/productpageold-weavers.png"/>
+                         </div>
+                    </div>
+                    <div class="row">
+                        <h3>Craving a Little More</h3>
                     <p>Although Weaver’s Nuts Sweets and Snacks satisfies customer’s salty and sweet food cravings, their website did not achieve the same satisfaction. A clunky, busy website made transactions difficult and did not promote an atmosphere for customers to linger and shop. With a little restructuring and a warmer color palette the site became as inviting as their store.</p>
-               <img src="../images/weaverssketch.png"/>
-                   <h3><u>Wireframing for Usability</u></h3>
-                    <p> Because of the principles learned  from Steve Krug’s user-minded book “Don’t Make Me Think”,  I restructured the architecture of the website's information for increased usability. Through increasing white space and including image-focused content the site's visual clutter was reduced. In the wireframing process, I implemented the ideas of reduced clutter in order to promote overall clarity for the customer’s decisions.</p>
-            <img src="../images/weaverswebbig.png"/>
-            <h3><u>Using Figma to Solidify the Design</u></h3>
-            <p>More ideas, including a smaller navbar and adding a search bar, stemmed from the wireframes and developed into the Figma files. Using the Golden Ratio to create a flexible grid, all of the new content and images were laid into place. The colors connected the customer back to Weaver’s logo and established a more branded looked.</p>
-            <div class="weavers-img">
-                <img src="../images/weaversmac.png"/>
-                <img src="../images/weaversphone.png"/>
-                    </div>
-                    <div class="weavers-page-device">
-                     <img src="../images/weaversipad.png">  
-                   <div class="weavers-page-device-content">
-                    <h3><u>Designing for the Customer's Devices</u></h3>
-                    <p>Customers access their information on a plethora of devices, so it was important to design responsively to accommodate the customer’s preference. The mobile and tablet versions of the site utilized the same hierarchy found in the desktop version, but each display as per their size.</p>
-         </div>
                         </div>
+                    
+                   <div class="row pt-5"> 
+                    <img class="img-fluid mt-4" src="../images/weaverssketch.png"/>
                     </div>
+                    <div class="row mt-4 mb-4">
+                   <h3>Wireframing for Usability</h3>
+                    <p> Because of the principles learned  from Steve Krug’s user-minded book “Don’t Make Me Think”,  I restructured the architecture of the website's information for increased usability. Through increasing white space and including image-focused content the site's visual clutter was reduced. In the wireframing process, I implemented the ideas of reduced clutter in order to promote overall clarity for the customer’s decisions.</p>
+                    </div>
+                    <div class="row pt-5 mb-4">   
+                <img class="img-fluid" src="../images/weaverswebbig.png"/>
+               </div>
+                    <div class="row mt-4">
+                    <h3>Using Figma to Solidify the Design</h3>
+            <p>More ideas, including a smaller navbar and adding a search bar, stemmed from the wireframes and developed into the Figma files. Using the Golden Ratio to create a flexible grid, all of the new content and images were laid into place. The colors connected the customer back to Weaver’s logo and established a more branded looked.</p>
+                        </div>
+               </div>
+               <div class="container">
+                 <div class="row  pt-5">
+                     <img class="img-fluid mr-md-3 mr-sm-3" src="../images/weaversmac.png"/>
+                <img class="img-fluid" src="../images/weaversphone.png"/>
+                </div>
+                   <div class="row mt-4"> 
+                    <h3>Designing for the Customer's Devices</h3>
+                    <p>Customers access their information on a plethora of devices, so it was important to design responsively to accommodate the customer’s preference. The mobile and tablet versions of the site utilized the same hierarchy found in the desktop version, but each display as per their size.</p>         
+                   </div>
+</div>
+
+                                <div class="center mb-5">           
+            <a href="../wearabledata.html" class="previous round mr-3">&#8249;</a>
+<a href="../poster.html" class="next round">&#8250;</a>
+     </div>
+            
+             <div class="container-fluid">
+                <div class="row">
                     <div class="contact__over">  
             </div>
-        <div class="contact">
-                <img src="../images/contactbird.png"/>
-                <div class="contact__text">
-                <h4>Contact</h4>
-                <div class="underline__contact">
-                    </div>
-                <p>I am always up for a good cup of coffee (virtually or not)! I’d love to hear from you!</p>
-                <a class="button">Contact ME</a>
-            </div>
                  </div>
+                 
+              <div class="container">
+                <div class="row">
+                <div class="col-md-6 my-auto order-sm-1 order-1 order-md-2">
+                    <h3>Contact</h3>
+                <p>I am always up for a good cup of coffee (virtually or not)! I’d love to hear from you!</p>
+                <a class=" btn btn-secondary btn-lg mb-5" href="mailto:hollsjdesign@gmail.com">Email Me</a>
+                     </div>
+                       <div class="col-md-6">
+                <img class="img-fluid py-2 px-2 ml-mr-3 order-sm-2 order-2 order-md-1" src="images/contactbird.png"/>
+                     </div>
+                  </div>
+                 </div>
+            </div>
+                 
         </main>
-          <footer>
-              <p class="footer__p">2020 Holly Diehl | All Rights Reserved</p>
+          <footer class="footer bg-primary px-2 py-2">
+              <p class="text-center py-3">2020 Holly Diehl | All Rights Reserved</p>
     </footer>
     </body>
 </html>
