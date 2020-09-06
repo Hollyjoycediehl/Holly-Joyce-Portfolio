@@ -3,96 +3,120 @@
     <head>
      <meta charset="UTF-8" />
      <title>Holly Portfolio</title>
+        <link rel="shortcut icon" type="image/x-icon" href="../images/hjdesignfavicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="shortcut icon" type="image/x-icon" href="../images/hjdesignfavicon.ico"/>
-    <link type="text/css" rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+         <link rel="stylesheet" href="css/_site.scss"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <script src="js/bootstrap.js"></script>
     </head>  
-    <body class="workpage">
+    <body>
          <header>
-             <nav>
-                <a href="index.html"><h1><img src="../images/hollydiehl.png" class="logo"/></h1></a> 
-               <ul>
-                           <li><a href="../index.html#about">About</a></li>
-                   <li><a href="../index.html#work">Work</a></li>
-                   <li><a href="../docs/HollyJDiehlResume.pdf">Resume&eacute</a></li>
+             <nav class="navbar navbar-expand-sm navbar-light fixed-top bg-primary">
+                 <div class="container-fluid">
+                 <a class="navbar-brand" href="../index.html">
+                 <img src="../images/hollydiehl.png" width="120" hieght="120" class="d-inline-block align-top">
+                 </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collaspe navbar-collapse" id="collapsibleNavbar">
+                    <ul class="nav navbar-nav mr-auto"> 
+                   <li class="nav-item"><a class="nav-link" href="../#about">About</a></li>
+                   <li class="nav-item"><a class="nav-link" href="../#work">Work</a></li>
+                   <li class="nav-item"><a class="nav-link"href="../docs/HollyJDiehlResume.pdf">Resum&eacute</a></li>
                  </ul>
+                     </div>
+                     </div>
              </nav>
       </header>
-        <main>
-            <div class= "workpage__header">
-            <h2 class="workpage__h2">Sweet Claims Rebrand</h2>
-                <div class="underline_workpages"></div>
-            <p class="workpage_subp">Rebranding to Convey a Heritage of Professionalism</p>
+        
+        <main class="main">
+            <div class="container mt-5" >
+                <div class="row">
+                    <div clas="col-6">
+                        <h2 class="pt-5">Sweet Claims Rebrand</h2>
+            <p>Rebranding to Convey a Heritage of Professionalism</p>
                    </div>
-            <a href="../poster.html">
-            <div class="lastpage">
-                <p>BACK</p>
+                </div>
             </div>
-                </a>
-            <a href="../packaging.html">
-            <div class="nextpage">
-                <p>NEXT</p>
-            </div>
-                </a>
-            <div class="sweetclaimspage">
-                <div class="sweetclaimspage__intro">
-              <h3><u>Discovering to Build a Visual Language</u></h3>
+
+                <div class="container pt-4">
+                <div class="row">
+                    
+              <h3>Discovering to Build a Visual Language</h3>
                 <p>With over 60 years of successful business, the legacy of Sweet Claim’s high standards and professionalism in adjustment expertise and administrative systems sets them apart from their competitors. They value excellence and keen attention to detail to provide their clients with information that they can trust. With such a rich heritage of high-quality attention, Sweet Claims outdated branding needed to reflect the same quality.</p>    
                         <p>To begin this project, I dove into the company's history, drivers, and competition. The discovery document outlines the goals for the rebrand based on discussions with the client and competition research. Through the discovery phase, client personas were constructed to represent Sweet Claim’s clients.</p>
-           <div class="sweetclaimspage__button">
-                    <a href="../docs/SweetClaimsCompanyDiscoveryDocument.pdf" class="sweetclaimspage__buttons">Discovery Document</a>
-                <a href="../docs/SweetClaimsClientPersonas.pdf" class="sweetclaimspage__buttons">Client Personas</a>
                     </div>
+                    <div class="row pb-4 pt-1">
+                    <a class="btn btn-secondary btn-lg mr-3" href="../docs/SweetClaimsCompanyDiscoveryDocument.pdf">Discovery Document</a>
+                <a class="btn btn-secondary btn-lg" href="../docs/SweetClaimsClientPersonas.pdf">Client Personas</a>
                     </div>
-                <div class="sweetclaimspage__stylescapes">
-                    <h3><u>Stylescaping For Client Personas</u></h3>
+                   <div class="row mt-4">
+                    <h3>Stylescaping For Client Personas</h3>
                     <p class="sweetclaimspage__stylescapes_p">After the client and I reviewed her discovery document, I went to work on creating two stylescapes with unique type, colorschemes, and visual languages to help focus the direction for the company’s branding.</p>
-                <img src="../images/sweetclaims_sleeklegacy.png"/>
-                     <h4 class="stylescapename">Sleeck Legacy</h4>
-                <ul>
+                    </div>
+                    <div class="row">
+                       <img class="img-fluid" src="../images/sweetclaims_sleeklegacy.png"/>
+                     <h4 class="text-uppercase mt-2"><strong>Sleek Legacy</strong></h4>
+                      </div>
+                <ul class="pb-3">
                     <li>Legacy</li>
                     <li>New York Professionalism</li>
                     <li>High Quality</li>
                 </ul>
-                 <img src="../images/sweetclaims_contemporaryprofessionalism.png"/>
-                     <h4 class="stylescapename">Contemporary Professionalism</h4>
+                      <div class="row">
+                 <img class="img-fluid" src="../images/sweetclaims_contemporaryprofessionalism.png"/>
+                    <h4 class="text-uppercase mt-2"><strong> Contemporary Professionalism</strong></h4>
+                    </div>
                 <ul>
                     <li>Customer Care</li>
                     <li>Attention to Detail</li>
                     <li>Tailored Service</li>
                 </ul>
-                </div>
-                <div class="sweetclaimspage__logos">
-                    <div class="sweetclaimspage__content">
-                        <h3><u>Talioring the Logo</u></h3>
+             
+            <div class="row">
+                <div class="col-md-7 col-sm-6 my-md-auto mt-4" >
+                        <h3>Talioring the Logo</h3>
                         <p>Reviewing the stylescapes helped the client to land on the contemporary professionalism board to reference for the brand's new visual style. The idea of referencing a coastal shape came out of conversations with the client. From this point two logos were created to reference the elegance of Sweet Claims. The topmost logo was a nod to a nautical rope/ innard curves of conch shells. It conveyed trust and quality of service found at Sweet Claims. Swans were the focus of the alternative logo. Since swans symbolize partnership, elegance,and devotion, they fit well within Sweet Claim’s brand values and became the motif of the bottom logo.</p>
-                        </div>
-                    <div class="sweetclaimspage__images">
-                        <img src="../images/sweetclaims-shell.png"/> 
-                       <img src="../images/sweetclaims-swan.png"/>
-                    </div>
+                     </div>
+                <div class="col-md-5 col-sm-6 pb-4">
+                        <img class="img-fluid mb-3" src="../images/sweetclaims-shell.png"/> 
+                       <img class="img-fluid" src="../images/sweetclaims-swan.png"/> 
                 </div>
-             <div class="sweetclaimspage__stationery">
-                <h3><u>Finalizing Branded Stationery</u></h3>
-                <p>The swan suited Sweet Claim’s values and vision the most, and so branded stationery was designed around the new logo. To match some of the stylescape’s art deco architecture, the imagery played with some similar angles. </p>
-                <img src="../images/Sweetclaimssationary.png"/>
-            </div>
-            </div>
-            <div class="contact__over">  
-            </div>
-        <div class="contact">
-                <img src="../images/contactbird.png"/>
-                <div class="contact__text">
-                <h4>Contact</h4>
-                <div class="underline__contact">
                     </div>
-                <p>I am always up for a good cup of coffee (virtually or not)! I’d love to hear from you!</p>
-                <a class="button">Contact ME</a>
+<div class="row pt-4 pb-3">    
+                <h3>Finalizing Branded Stationery</h3>
+                <p>The swan suited Sweet Claim’s values and vision the most, and so branded stationery was designed around the new logo. To match some of the stylescape’s art deco architecture, the imagery played with some similar angles. </p>
+                <img class="img-fluid pt-2" src="../images/Sweetclaimssationary.png"/>
+            </div>     
             </div>
+                         <div class="center mb-5">           
+            <a href="../sweetclaims.html" class="previous round mr-3">&#8249;</a>
+<a href="../jojobowls.html" class="next round">&#8250;</a>
+     </div>        
+             <div class="container-fluid">
+                <div class="row">
+                    <div class="contact__over">  
+            </div>
+                 </div> 
+              <div class="container">
+                <div class="row">
+                <div class="col-md-6 my-auto order-sm-1 order-1 order-md-2">
+                    <h3>Contact</h3>
+                <p>I am always up for a good cup of coffee (virtually or not)! I’d love to hear from you!</p>
+                <a class=" btn btn-secondary btn-lg mb-5" href="mailto:hollsjdesign@gmail.com">Email Me</a>
+                     </div>
+                       <div class="col-md-6">
+                <img class="img-fluid py-2 px-2 ml-mr-3 order-sm-2 order-2 order-md-1" src="images/contactbird.png"/>
+                     </div>
+                  </div>
                  </div>
+            </div>
+                 
         </main>
-          <footer>
-              <p class="footer__p">2020 Holly Diehl | All Rights Reserved</p>
+          <footer class="footer bg-primary px-2 py-2">
+              <p class="text-center py-3">2020 Holly Diehl | All Rights Reserved</p>
     </footer>
     </body>
 </html>
