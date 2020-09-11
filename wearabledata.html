@@ -2,62 +2,88 @@
 <html>
     <head>
      <meta charset="UTF-8" />
-     <title>Holly Portfolio</title>
+     <title>Wearable Data</title>
+        <link rel="shortcut icon" type="image/x-icon" href="../images/hjdesignfavicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link type="text/css" rel="stylesheet" href="styles.css" />
-    </head>  
-    <body class="workpage">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+         <link rel="stylesheet" href="css/_site.scss"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <script src="js/bootstrap.js"></script>
+    </head>
+    <body>
          <header>
-             <nav>
-                <a href="index.html"><h1><img src="images/hollydiehl.png" class="logo"/></h1></a> 
-                <ul>
-                           <li><a href="index.html#about">About</a></li>
-                   <li><a href="index.html#work">Work</a></li>
-                   <li><a href="docs/HollyJDiehlResume.pdf">Resume</a></li>
+             <nav class="navbar navbar-expand-sm navbar-light fixed-top bg-primary">
+                 <div class="container-fluid">
+                 <a class="navbar-brand" href="../index.html">
+                 <img src="../images/hollydiehl.png" width="120" hieght="120" class="d-inline-block align-top">
+                 </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collaspe navbar-collapse" id="collapsibleNavbar">
+                    <ul class="nav navbar-nav mr-auto">
+                   <li class="nav-item"><a class="nav-link" href="../#about">About</a></li>
+                   <li class="nav-item"><a class="nav-link" href="../#work">Work</a></li>
+                   <li class="nav-item"><a class="nav-link"href="../docs/HollyJDiehlResume.pdf">Resum&eacute</a></li>
                  </ul>
+                     </div>
+                     </div>
              </nav>
       </header>
-        <main>
-            <div class= "workpage__header">
-            <h2 class="workpage__h2">Wearable Data</h2>
-                <div class="underline_workpages"></div>
-            <p class="workpage_subp">Designing a Necklace Around My Vanity</p>
-                   </div>
-            <a href="avo.html">
-            <div class="lastpage">
-                <p>BACK</p>
-            </div>
-                </a>
-            <a href="weavers.html">
-            <div class="nextpage">
-                <p>NEXT</p>
-            </div>
-                </a>
-            <div class="wearable_content">
-                <div class="wearable_p">
-                <h3><u>Data Visualization Vogue</u></h3>
+        <main class="main">
+            <div class="container mt-5" >
+                <div class="row">
+                    <div clas="col-6">
+                        <h2 class="pt-5">Wearable Data</h2>
+            <p>Designing a Necklace Around My Vanity</p>
+                    </div>
+                </div>
+                </div>
+
+            <div class="container pt-4">
+            <div class="row mb-5">
+                    <div class="col-md-7 order-2 order-md-1 order-md-1">
+                <h3>Data Visualization Vogue</h3>
                 <p>Data visualization piqued my interest when I discovered the work of data designer Giorgia Lupi.  In the spring semester of 2020, I tacked a data visualization independent study onto my course load and immediately knew that I wanted to experiment with wearable data. Because of the many quips that my friends and loved ones make about me changing my outfit many times throughout the course of a day, I spent a week collecting data pertaining to my personal vanity. The necklace is the final visualed data and the graph below explains how to read the necklace.</p>
                 </div>
-                    <img src="images/wearabledata.png">
-            </div>
-            <div class="wearable_data">
-            <img src="images/wearablevanitydata.png"/>
+                <div class="col-md-5 my-md-auto order-md-2 order-sm-2 order-1">
+                    <img class="img-fluid mx-auto" src="../images/wearabledata.png">
                 </div>
-            <div class="contact__over">  
+                   </div>
             </div>
-        <div class="contact">
-                <img src="images/contactbird.png"/>
-                <div class="contact__text">
-                <h4>Contact</h4>
-                <div class="underline__contact">
-                    </div>
-                <p>I am always up for a good cup of coffee (virtually or not)! I’d love to hear from you!</p>
-                <a class="button">Contact ME</a>
+                <div class="container-fluid bg-light pt-3 pb-4">
+                    <div class="row">
+            <img class="img-fluid mx-auto" src="../images/wearablevanitydata.png"/>
+                        </div>
+                </div>
+                      <div class="center mb-5">
+            <a href="../avo.html" class="previous round mr-3">&#8249;</a>
+<a href="../weavers.html" class="next round">&#8250;</a>
+     </div>
+
+             <div class="container-fluid">
+                <div class="row">
+                    <div class="contact__over">
             </div>
                  </div>
+
+              <div class="container">
+                <div class="row">
+                <div class="col-md-6 my-auto order-sm-1 order-1 order-md-2">
+                    <h3>Contact</h3>
+                <p>I am always up for a good cup of coffee (virtually or not)! I’d love to hear from you!</p>
+                <a class=" btn btn-secondary btn-lg mb-5" href="mailto:hollsjdesign@gmail.com">Email Me</a>
+                     </div>
+                       <div class="col-md-6">
+                <img class="img-fluid py-2 px-2 ml-mr-3 order-sm-2 order-2 order-md-1" src="images/contactbird.png"/>
+                     </div>
+                  </div>
+                 </div>
+            </div>
+
         </main>
-          <footer>
-              <p class="footer__p">2020 Holly Diehl | All Rights Reserved</p>
+          <footer class="footer bg-primary px-2 py-2">
+              <p class="text-center py-3" >2020 Holly Diehl | All Rights Reserved</p>
     </footer>
     </body>
 </html>

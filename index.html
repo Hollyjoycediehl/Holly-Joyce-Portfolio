@@ -3,108 +3,147 @@
     <head>
      <meta charset="UTF-8" />
      <title>Holly Portfolio</title>
+        <link rel="shortcut icon" type="image/x-icon" href="images/hjdesignfavicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link type="text/css" rel="stylesheet" href="styles.css" />
-    </head>  
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+         <link rel="stylesheet" href="css/site.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <script src="js/bootstrap.js"></script>
+    </head>
     <body>
          <header>
-             <nav>
-                <a href="index.html"><h1><img src="images/hollydiehl.png" class="logo"/></h1></a> 
-                 <ul>
-                   <li><a href="#about">About</a></li>
-                   <li><a href="#work">Work</a></li>
-                   <li><a href="docs/HollyJDiehlResume.pdf">Resum&eacute</a></li>
+             <nav class="navbar navbar-expand-sm navbar-light fixed-top bg-primary">
+                 <div class="container-fluid">
+                 <a class="navbar-brand" href="index.html">
+                 <img src="images/hollydiehl.png" width="120" hieght="120" class="d-inline-block align-top">
+                 </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collaspe navbar-collapse" id="collapsibleNavbar">
+                    <ul class="nav navbar-nav mr-auto">
+                   <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                   <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+                   <li class="nav-item"><a class="nav-link"href="docs/HollyJDiehlResume.pdf">Resum&eacute</a></li>
                  </ul>
+                     </div>
+                     </div>
              </nav>
       </header>
-        <main>
-            <div class="home__hello">
-             <div class="home__hello-text">
-            <h2>Helllooo There!</h2>
-            <p>My name is Holly and I am a multifaceted <u>people-driven designer.</u></p>
-            <a href="#work" class="button">View My Work</a>
+        <main role="main">
+            <div class="container my-3">
+                <div class="row">
+                    <div class="col-md-4 order-md-1 order-sm-2 order-2 my-md-auto my-n5">
+            <h2 mb-md-4>Helllooo There!</h2>
+            <p class="">My name is Holly and I am a multifaceted <strong><u>people-driven designer.</u></strong></p>
+
+                        <a class="btn btn-secondary btn-lg mt-2 mb-5" href="#work">View Work</a>
             </div>
-            <img src="images/hellodog.png"/>
+                    <div class="col-md-8 order-1 my-5">
+            <img class="img-fluid my-5" src="images/hellodog.png"/>
+                </div>
+                </div>
             </div>
-            <div id="work"class="featuredwork">
-            <h3>Featured Work</h3>
+
+            <div class="container">
+            <div id="work"class="my-3 my-sm-5 my-5">
+            <h3 class="mb-4">Featured Work</h3>
             <div class="underline__featuredwork">
             </div>
-            </div>
-            <div class="featuredwork_spotlight">
-            <img src="images/amblyphone.png"/>
-            <div class="featuredwork_casestudy_ambly">
-            <h4>Case Study: Ambly</h4>
-            <div class="underline__featured">
+                <div class="row">
+                <div class="col-sm-6 order-md-1">
+            <img class="img-fluid" src="images/amblyphone.png"/>
                 </div>
-            <p><b>Utlizing Universal Design Principles for an Education Campaign</b></p>
+                <div class="col-sm-6 my-auto order-md-2">
+            <h4 class="my-3">Case Study: Ambly</h4>
+            <p class="mt-n2"><strong>Utlizing Universal Design Principles for an Education Campaign</strong></p>
             <p>Dig into my research-founded campaign to help students with Amblyopia, ADHD, and Dsylexia find success with scannable testing in the classroom.</p>
-           <div class="featured__button">
-               
+                <a class="btn btn-secondary btn-lg mt-2 mb-5" href="ambly.html">See More</a>
                 </div>
-                <a href="ambly.html" class="button">See More</a>
-                </div>
-                </div>
-            <div class="portfolio__imgs">
-                <ul>
-               <a href="avo.html">
-                <li>
-                     <img src="images/datamail.png"/>
-                    <p class="portfolio__name"><u>Variable Data Mailing</u></p>
-                    </li> 
-                   </a>
-                    <a href="wearabledata.html">
-                      <li>
-                     <img src="images/wearabledata.png"/>
-                          <p class="portfolio__name"><u>Wearable Data Visualization</u></p>
-                    </li> 
+                    </div>
+                    </div>
+               </div>
+
+            <div class="container">
+                <div class="row">
+                <ul class="d-md-flex d-noflex d-sm-noflex list-unstyled no-scroll pb-md-3">
+                    <div class="col-md-4 col-sm-2">
+                       <li class="list-inline-item">
+                           <a class="text-decoration-none" href="avo.html">
+                     <img class="img-fluid" src="images/datamail.png"/>
+                    <h5 class="text-center mt-2"><u>Variable Data Mailing</u></h5>
                     </a>
-                     <a href="weavers.html">
-                           <li>
-                      <img src="images/weaversweb.png"/>
-                               <p class="portfolio__name"><u>Weaver’s Responsive Website</u></p>
-                    </li> 
+                    </li>
+                    </div>
+                    <div class="col-md-4">
+                         <li class="list-inline-item">
+                          <a class="text-decoration-none" href="wearabledata.html">
+                     <img class="img-fluid" src="images/wearabledata.png"/>
+                          <h5 class="text-center mt-2"><u>Wearable Data Visualization</u></h5>
                     </a>
+                            </li>
+                        </div>
+                    <div class="col-md-4">
+                           <li class="list-inline-item">
+                                 <a class="text-decoration-none" href="weavers.html">
+                      <img class="img-fluid" src="images/weaversweb.png"/>
+                               <h5 class="text-center mt-2"><u>Weaver’s Responsive Website</u></h5>
+                     </a>
+                             </li>
+                        </div>
                     </ul>
+                    </div>
                 </div>
-            <div class="portfolio__imgs">
-            <ul>
-               <a href="poster.html">
-                <li>
-                     <img src="images/inkposter.png"/>
-                    <p class="portfolio__name"><u>White Ink Poster</u></p>
-                    </li> 
-                   </a>
-                    <a href="sweetclaims.html">
+           <div class="container">
+               <div class="row">
+                   <ul class="d-md-flex d-noflex d-sm-noflex list-unstyled no-scroll pb-5">
+               <div class="col-md-4">
+                       <li>
+                     <a href="poster.html">
+                     <img class="img-fluid" src="images/inkposter.png"/>
+                    <h5 class="text-center mt-2"><u>White Ink Poster</u></h5>
+                    </a>
+                         </li>
+                   </div>
+                       <div class="col-md-4">
                       <li>
-                     <img src="images/sweetclaimsswan.png"/>
-                          <p class="portfolio__name"><u>Sweet Claims Branding</u></p>
-                    </li> 
+                          <a href="sweetclaims.html">
+                     <img class="img-fluid" src="images/sweetclaimsswan.png"/>
+                          <h5 class="text-center mt-2"><u>Sweet Claims Branding</u></h5>
                     </a>
-                     <a href="packaging.html">
+                                 </li>
+                                 </div>
+                     <div class="col-md-4">
                            <li>
-                      <img src="images/packagingfront.png"/>
-                               <p class="portfolio__name"><u>Granola Packaging</u></p>
-                    </li> 
+                               <a href="packaging.html">
+                      <img class="img-fluid" src="images/packagingfront.png"/>
+                               <h5 class="text-center mt-2"><u>Granola Packaging</u></h5>
                     </a>
+                                   </li>
+                       </div>
                    </ul>
+            </div>
                 </div>
-               <div class="featuredwork_spotlight">
-            <div class="featuredwork_casestudy_jojo">
-            <h4>JoJo Bowls *WIP*</h4>
-            <div class="underline__featured">
-                </div>
+
+               <div class="container">
+                   <div class="row">
+                      <div class="col-sm-6 my-auto order-md-1 order-sm-2 order-2">
+            <h4 class="mt-3">JoJo Bowls *WIP*</h4>
             <p><b>Enegergizing Design for a Fun and Healthy Acai Bowl Food Truck</b></p>
             <p>Follow along with my process as I research, strategize, and design to appeal to the startup’s target market. Along the way I will create branding, illustrations, and a custom mobile order website.</p>
-          <div class="featured__button">
-                <a href="jojobowls.html" class="button">See More</a>
-              </div>
-                </div>
-             <img src="images/jojobowlspreview.png"/>
-            </div>
-            <div class="aboutme" id="about">
-                <div class="aboutme__left"> 
-                <h3>About Me</h3>
+                <a class="btn btn-secondary btn-lg mt-2 mb-3" href="jojobowls.html">See More</a>
+                   </div>
+                    <div class="col-sm-6 order-md-2 order-sm-1 order-1">
+                       <img class="img-fluid mb-5" src="images/jojobowlspreview.png"/>
+                       </div>
+                       </div>
+             </div>
+
+
+            <div class="container-fluid  bg-primary pt-4" id="about">
+                <div class="row py-5">
+                    <div class="col-sm-6 align-center mx-auto mh-auto text-center order-md-1 order-lg-1 order-sm-2 order-2">
+                <h3 class="mb-3">About Me</h3>
                 <div class="underline__aboutme">
                </div>
                 <h4><u>My Design Philosophy</u></h4>
@@ -112,28 +151,34 @@
                 <p>Design is more than artwork, more than selling a product, and more than personal expression. As a designer, I believe in a people-first approach. Empathy, to me, is the designer’s best tool.</p>
                 <h4><u>Some Other Non-Design Related Things About Me</u></h4>
                 <p>I love doodling food, baking breads (or anything else with carbs), and thrift shopping.</p>
-                    <div class="aboutme__buttons">
-                        <a href="docs/HollyJDiehlResume.pdf" class="button">See My Resume</a>
-                        </div>
-            <a href="https://www.linkedin.com/in/holly-diehl-21b411188/" class="button">View My LinkedIn</a>
+
+                        <a class="btn btn-secondary btn-lg mt-2 mb-5 mr-3" href="docs/HollyJDiehlResume.pdf">See My Resum&eacute</a>
+
+            <a class="btn btn-secondary btn-lg mt-2 mb-5" href="https://www.linkedin.com/in/holly-diehl-21b411188/">View My LinkedIn</a>
            </div>
-             <div class="aboutme__right">
-                  <img src="images/coffeelaptop.png"/>
-                </div>   
-                </div>     
-            <div class="contact">
-                <img src="images/contactbird.png"/>
-                <div class="contact__text">
-                <h3>Contact</h3>
-                <div class="underline__contact">
+                    <div class="col-sm-4 mx-auto order-md-2 order-lg-2 order-sm-1 order-1">
+                  <img class="img-fluid mt-n5 mh-50%"  src="images/coffeelaptop.png"/>
+                   </div>
                     </div>
-                <p>I am always up for a good cup of coffee (virtually or not)! I’d love to hear from you!</p>
-                <a href="mailto:hollsjdesign@gmail.com" class="button">Email Me</a>
             </div>
-                 </div>
+
+
+            <div class="container">
+                <div class="row">
+                <div class="col-sm-6">
+                    <h3>Contact</h3>
+                <p>I am always up for a good cup of coffee (virtually or not)! I’d love to hear from you!</p>
+                <a class=" btn btn-secondary btn-lg" href="mailto:hollsjdesign@gmail.com">Email Me</a>
+                     </div>
+                       <div clas="col-sm-6">
+                <img class="img-fluid w-5% h-5%" src="images/contactbird.png"/>
+                     </div>
+            </div>
+            </div>
+
         </main>
-          <footer>
-              <p class="footer__p">2020 Holly Diehl | All Rights Reserved</p>
+          <footer class="footer bg-primary px-2 py-2">
+              <p class="text-center py-3" >2020 Holly Diehl | All Rights Reserved</p>
     </footer>
     </body>
 </html>

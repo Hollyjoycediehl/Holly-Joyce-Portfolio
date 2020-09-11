@@ -2,61 +2,87 @@
 <html>
     <head>
      <meta charset="UTF-8" />
-     <title>Holly Portfolio</title>
+     <title>White Ink Poster</title>
+        <link rel="shortcut icon" type="image/x-icon" href="../images/hjdesignfavicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link type="text/css" rel="stylesheet" href="styles.css" />
-    </head>  
-    <body class="workpage">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+         <link rel="stylesheet" href="css/_site.scss"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <script src="js/bootstrap.js"></script>
+    </head>
+    <body>
          <header>
-             <nav>
-                <a href="index.html"><h1><img src="images/hollydiehl.png" class="logo"/></h1></a> 
-                 <ul>
-                           <li><a href="index.html#about">About</a></li>
-                   <li><a href="index.html#work">Work</a></li>
-                   <li><a href="docs/HollyJDiehlResume.pdf">Resume</a></li>
+             <nav class="navbar navbar-expand-sm navbar-light fixed-top bg-primary">
+                 <div class="container-fluid">
+                 <a class="navbar-brand" href="../index.html">
+                 <img src="../images/hollydiehl.png" width="120" hieght="120" class="d-inline-block align-top">
+                 </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collaspe navbar-collapse" id="collapsibleNavbar">
+                    <ul class="nav navbar-nav mr-auto">
+                   <li class="nav-item"><a class="nav-link" href="../#about">About</a></li>
+                   <li class="nav-item"><a class="nav-link" href="../#work">Work</a></li>
+                   <li class="nav-item"><a class="nav-link"href="../docs/HollyJDiehlResume.pdf">Resum&eacute</a></li>
                  </ul>
+                     </div>
+                     </div>
              </nav>
       </header>
-        <main>
-            <div class= "workpage__header">
-            <h2 class="workpage__h2">White Ink Poster</h2>
-                <div class="underline_workpages"></div>
-            <p class="workpage_subp">Illustrating and Printing White Inks on Black Paper</p>
+
+           <main class="main">
+<div class="container mt-5" >
+                <div class="row">
+                    <div clas="col-6">
+            <h2 class="pt-5">White Ink Poster</h2>
+            <p>Illustrating and Printing White Inks on Black Paper</p>
                    </div>
-              <a href="weavers.html">
-            <div class="lastpage">
-                <p>BACK</p>
-            </div>
-                </a>
-            <a href="sweetclaims.html">
-            <div class="nextpage">
-                <p>NEXT</p>
-            </div>
-                </a>
-            <img class="poster__img" src="images/aligators.png">
-            <div class="poster">
-            <div class="poster__content">
-               <h3><u>Printing With White</u></h3>
+    </div>
+               </div>
+               <div class="container">
+                   <div class="row pt-4">
+            <img class="img-fluid" src="../images/aligators.png">
+ </div>
+                   <div class="row pt-5">
+                       <div class="col-md-5">
+                           <h3>Printing With White</h3>
             <p>Advances in digital printers allow designers to create pieces that would have before only been possible through manual and or expensive alternatives. The HP InkJet capabilities allowed me to print white ink onto the black poster substrate. To correctly print the poster, I created a white underbase in Illustrator and used the separation capabilities (the same process as in screen printing) to separate the layers for the printer. The poster layed down 3 passes of white color on the paper and then printed CMYK over top of the white ink.</p>
             <p>*I have no affiliation with the Bronx Zoo</p>
-            </div>
-            <img src="images/whiteinkposter.png">
-                </div>
-                <div class="contact__over">  
-            </div>
-        <div class="contact">
-                <img src="images/contactbird.png"/>
-                <div class="contact__text">
-                <h4>Contact</h4>
-                <div class="underline__contact">
-                    </div>
-                <p>I am always up for a good cup of coffee (virtually or not)! I’d love to hear from you!</p>
-                <a class="button">Contact ME</a>
+                             </div>
+                       <div class="col-md-6  ml-md-3">
+               <img class="img-fluid" src="../images/whiteinkposter.png">
+                     </div>
+                   </div>
+  </div>
+
+                 <div class="center mb-5">
+            <a href="../weavers.html" class="previous round mr-3">&#8249;</a>
+<a href="../sweetclaims.html" class="next round">&#8250;</a>
+     </div>
+             <div class="container-fluid">
+                <div class="row">
+                    <div class="contact__over">
             </div>
                  </div>
+
+              <div class="container">
+                <div class="row">
+                <div class="col-md-6 my-auto order-sm-1 order-1 order-md-2">
+                    <h3>Contact</h3>
+                <p>I am always up for a good cup of coffee (virtually or not)! I’d love to hear from you!</p>
+                <a class=" btn btn-secondary btn-lg mb-5" href="mailto:hollsjdesign@gmail.com">Email Me</a>
+                     </div>
+                       <div class="col-md-6">
+                <img class="img-fluid py-2 px-2 ml-mr-3 order-sm-2 order-2 order-md-1" src="images/contactbird.png"/>
+                     </div>
+                  </div>
+                 </div>
+            </div>
+
         </main>
-          <footer>
-              <p class="footer__p">2020 Holly Diehl | All Rights Reserved</p>
+          <footer class="footer bg-primary px-2 py-2">
+              <p class="text-center py-3">2020 Holly Diehl | All Rights Reserved</p>
     </footer>
     </body>
 </html>

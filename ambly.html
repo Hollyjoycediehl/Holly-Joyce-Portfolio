@@ -2,86 +2,131 @@
 <html>
     <head>
      <meta charset="UTF-8" />
-     <title>Holly Portfolio</title>
+     <title>Ambly</title>
+        <link rel="shortcut icon" type="image/x-icon" href="../images/hjdesignfavicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link type="text/css" rel="stylesheet" href="styles.css" />
-    </head>  
-    <body class="workpage">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+         <link rel="stylesheet" href="css/_site.scss"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <script src="js/bootstrap.js"></script>
+    </head>
+    <body>
          <header>
-             <nav>
-                <a href="index.html"><h1><img src="images/hollydiehl.png" class="logo"/></h1></a> 
-               <ul>
-                        <li><a href="index.html#about">About</a></li>
-                   <li><a href="index.html#work">Work</a></li>
-                   <li><a href="docs/HollyJDiehlResume.pdf">Resum&eacute</a></li>
+             <nav class="navbar navbar-expand-sm navbar-light fixed-top bg-primary">
+                 <div class="container-fluid">
+                 <a class="navbar-brand" href="../index.html">
+                 <img src="../images/hollydiehl.png" width="120" hieght="120" class="d-inline-block align-top">
+                 </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collaspe navbar-collapse" id="collapsibleNavbar">
+                    <ul class="nav navbar-nav mr-auto">
+                   <li class="nav-item"><a class="nav-link" href="../#about">About</a></li>
+                   <li class="nav-item"><a class="nav-link" href="../#work">Work</a></li>
+                   <li class="nav-item"><a class="nav-link"href="../docs/HollyJDiehlResume.pdf">Resum&eacute</a></li>
                  </ul>
+                     </div>
+                     </div>
              </nav>
       </header>
-        <main>
-           <div class= "workpage__header">
-            <h2 class="workpage__h2">Ambly</h2>
-                <div class="underline_workpages"></div>
-            <p class="workpage_subp">Implementing Universal Design to Help Students Achieve</p>
+
+        <main class="main">
+            <div class="container mt-5" >
+                <div class="row">
+                    <div clas="col-6">
+                        <h2 class="pt-5">Ambly</h2>
+            <p>Implementing Universal Design to Help Students Achieve</p>
                    </div>
-            <a href="jojobowls.html">
-              <div class="lastpage">
-                <p>BACK</p>
             </div>
-                </a>
-            <a href="avo.html">
-            <div class="nextpage">
-                <p>NEXT</p>
-            </div>
-                </a>
-            <div class="ambly__advocating">
-            <h3><u>Advocating in the Classroom</u></h3>
-            <p>Inspired by my own experience with severe childhood amblyopia (a visual disorder that results in the misalignment of eyes), I wanted to research if other students with amblyopia struggled with scannable tests (Scantrons) in the classroom. Through research I soon discovered I was not alone. I dug into many academic journals that confirmed that the use of scannable answer sheets on tests placed students with amblyopia at a disadvantage as well as students with ADHD, Disagraphia, or Dyslexia. Despite the problems associated with the tests, many schools and The CollegeBoard  do not offer alternatives to students. I wanted to design a solution.</p>
-           </div>
-                <div class="ambly__testcoverimgs">
-               <img src="images/testcover.png">
-               <img src="images/testmockuphands.png">
-            </div>
-            <div class="ambly__testcover">
-            <h3><u>CREATING A TESTING COVER</u></h3>
-            <p>Incorporating a built-in dyslexic reading ruler (proven to help all students read more efficiently) became my focus in creating a slidable cover for students to track their progress. It also allowed schools to use the scannable tests that they already own, while benefiting all students in the classroom by creating a cover to discourage cheating.  I created 3D models of the test cover utilizing Photoshop and Illustrator.</p>
-            </div>
-                <div class="ambly__campaign">
-             <div class="ambly__campaign_content">
-            <h3><u>Campaigning the Vision</u></h3>
-            <p>Because the testing cover originated from the idea of helping students with dimmed vision, the brand earned the name “ambly” to bring awareness to the disorder. The brand fixated on the goal of helping children (specifically those with amblyopia), so the logo followed suit as a lightheartedly imperfect reminder– something that looked as though a child might be able to replicate themselves. It represents a simplified patch over an eye, which is the common treatment method for amblyopia. </p>
-            </div>
-            <div class="ambly__imgs">
-            <img src="images/amblylogo.png">
-            <img src="images/amblymagazine.png">
                 </div>
-            </div>
-            <div class="ambly__imgspread">
-            <img src="images/amblyposter1.png">
-            <img src="images/amblyposter2.png">
-            <img src="images/amblyposter3.png">
-            </div>
-            <div class="ambly__finalset">
-            <img src="images/amblyphoneshort.png">
-                <div class="ambly__finalset_content">
-             <h3><u>Imagery Inclusivity</u></h3>
-            <p>As a child I never saw other children wearing eyepatches depicted in images, except in a dress-up scenario or at my eye doctor's office. I wanted to normalize the common treatment method in ambly’s branding in order to boost other children’s self esteem. Content in the forms of posters, Instagram posts, and magazine spreads developed inorder to highlight statistics, raise awareness, and showcase diversity.</p>
-                </div>
-                </div>
-            <div class="contact__over">  
-            </div>
-                    <div class="contact">
-                <img src="images/contactbird.png"/>
-                <div class="contact__text">
-                <h4>Contact</h4>
-                <div class="underline__contact">
+
+            <div class="container mt-md-5 mt-3 mt-sm-3">
+                <div class="row">
+                    <div class="col-md-7 col-sm-7 col-7">
+                   <img class="img-fluid" src="../images/testmockuphands.png">
+                           </div>
+                    <div class="col-md-5 col-sm-5 col-5" >
+
+              <img class="img-fluid" src="../images/testcover.png">
+                 </div>
                     </div>
-                <p>I am always up for a good cup of coffee (virtually or not)! I’d love to hear from you!</p>
-                <a href="mailto:hollsjdesign@gmail.com" class="button">Email Me</a>
+                <div class="row mt-4">
+             <h3>Advocating in the Classroom </h3>
+            <p>Inspired by my own experience with severe childhood amblyopia (a visual disorder that results in the misalignment of eyes), I wanted to research if other students with amblyopia struggled with scannable tests (Scantrons) in the classroom. Through research I soon discovered I was not alone. I dug into many academic journals that confirmed that the use of scannable answer sheets on tests placed students with amblyopia at a disadvantage as well as students with ADHD, Disagraphia, or Dyslexia. Despite the problems associated with the tests, many schools and The CollegeBoard  do not offer alternatives to students. I wanted to design a solution.</p>
+                        </div>
+                 </div>
+
+            <div class="container">
+               <div class="row mt-4">
+                   <div class="col-md-6 col-sm-6 order-2 order-sm-2 order-1">
+                     <h3>Creating a Testing Cover</h3>
+            <p mb-2>Incorporating a built-in dyslexic reading ruler (proven to help all students read more efficiently) became my focus in creating a slidable cover for students to track their progress. It also allowed schools to use the scannable tests that they already own, while benefiting all students in the classroom by creating a cover to discourage cheating.  I created 3D models of the test cover utilizing Photoshop and Illustrator.</p>
+
+            <h3>Campaigning the Vision</h3>
+            <p>Because the testing cover originated from the idea of helping students with dimmed vision, the brand earned the name “ambly” to bring awareness to the disorder. The brand fixated on the goal of helping children (specifically those with amblyopia), so the logo followed suit as a lightheartedly imperfect reminder– something that looked as though a child might be able to replicate themselves. It represents a simplified patch over an eye, which is the common treatment method for amblyopia. </p>
+          </div>
+                   <div class="col-md-5 col-sm-5 ml-3 my-auto order-1 order-sm-1 order-md-2">
+                       <img class="img-fluid mb-5" src="../images/amblylogo.png">
+            <img class="img-fluid" src="../images/amblymagazine.png">
+                   </div>
+                </div>
+            </div>
+
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="col-4">
+                        <img class="img-fluid" src="../images/amblyposter1.png">
+                         </div>
+                          <div class="col-4">
+            <img class="img-fluid" src="../images/amblyposter3.png">
+                    </div>
+                    <div class="col-4">
+            <img class="img-fluid" src="../images/amblyposter2.png">
+                    </div>
+            </div>
+                </div>
+
+            <div class="container mb-5 mt-4">
+                <div class="row">
+                    <div class="col-md-4 order-2 order-sm-2 order-md-1">
+                          <img class="img-fluid" src="../images/amblyphoneshort.png">
+                        </div>
+                    <div class="col-md-8 order-1 order-sm-1 order-md-2">
+                    <h3>Imagery Inclusivity</h3>
+            <p>As a child I never saw other children wearing eyepatches depicted in images, except in a dress-up scenario or at my eye doctor's office. I wanted to normalize the common treatment method in ambly’s branding in order to boost other children’s self esteem. Content in the forms of posters, Instagram posts, and magazine spreads developed inorder to highlight statistics, raise awareness, and showcase diversity.</p>
+               </div>
+                    </div>
+                </div>
+
+<div class="center mb-5">
+            <a href="../jojobowls.html" class="previous round mr-3">&#8249;</a>
+<a href="../avo.html" class="next round">&#8250;</a>
+     </div>
+
+             <div class="container-fluid">
+                <div class="row">
+                    <div class="contact__over">
             </div>
                  </div>
+
+              <div class="container">
+                <div class="row">
+                <div class="col-md-6 my-auto order-sm-1 order-1 order-md-2">
+                    <h3>Contact</h3>
+                <p>I am always up for a good cup of coffee (virtually or not)! I’d love to hear from you!</p>
+                <a class=" btn btn-secondary btn-lg mb-5" href="mailto:hollsjdesign@gmail.com">Email Me</a>
+                     </div>
+                       <div class="col-md-6">
+                <img class="img-fluid py-2 px-2 ml-mr-3 order-sm-2 order-2 order-md-1" src="images/contactbird.png"/>
+                     </div>
+                  </div>
+                 </div>
+            </div>
+
         </main>
-          <footer>
-              <p class="footer__p">2020 Holly Diehl | All Rights Reserved</p>
+          <footer class="footer bg-primary px-2 py-2">
+              <p class="text-center py-3" >2020 Holly Diehl | All Rights Reserved</p>
     </footer>
     </body>
 </html>
